@@ -41,7 +41,7 @@ To begin, use Python and SQLAlchemy to do basic climate analysis and data explor
 
 - Plot the results as a histogram with `bins=12`.
 
-# # Step 2 - Climate App
+## Step 2 - Climate App
 - Designed a Flask API based on the developed queries.
 
 Use FLASK to create your routes.
