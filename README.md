@@ -1,5 +1,4 @@
 # Climate Analysis and Exploration
-![1-Logo](Images/surf.png)
 ## Step 1 
 To begin, use Python and SQLAlchemy to do basic climate analysis and data exploration of your climate database. All of the following analysis should be completed using SQLAlchemy ORM queries, Pandas, and Matplotlib.
 
@@ -121,6 +120,8 @@ Return a JSON list of Temperature Observations (tobs) for the previous year.
 
 
 - Used the peak-to-peak (tmax-tmin) value as the y error bar (yerr).
+
+
 ![1-Logo](Images/avgTempBoxPlot.png)
 
 # Daily Rainfall Average
