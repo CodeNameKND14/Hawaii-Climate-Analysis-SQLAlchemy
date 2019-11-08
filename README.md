@@ -1,4 +1,5 @@
 # Climate Analysis and Exploration
+![1-Logo](Images/surf.png)
 ## Step 1 
 To begin, use Python and SQLAlchemy to do basic climate analysis and data exploration of your climate database. All of the following analysis should be completed using SQLAlchemy ORM queries, Pandas, and Matplotlib.
 
@@ -24,6 +25,8 @@ To begin, use Python and SQLAlchemy to do basic climate analysis and data explor
 
 - Use Pandas to print the summary statistics for the precipitation data.
 
+![1-Logo](Images/Percepitation.png)
+
 ## Station Analysis
 
 
@@ -40,6 +43,8 @@ To begin, use Python and SQLAlchemy to do basic climate analysis and data explor
 - Filter by the station with the highest number of observations.
 
 - Plot the results as a histogram with `bins=12`.
+
+![1-Logo](Images/TObsVFreqHist.png)
 
 ## Step 2 - Climate App
 - Designed a Flask API based on the developed queries.
@@ -116,6 +121,7 @@ Return a JSON list of Temperature Observations (tobs) for the previous year.
 
 
 - Used the peak-to-peak (tmax-tmin) value as the y error bar (yerr).
+![1-Logo](Images/avgTempBoxPlot.png)
 
 # Daily Rainfall Average
 
@@ -132,3 +138,5 @@ Return a JSON list of Temperature Observations (tobs) for the previous year.
 
 
 - Used Pandas to plot an area plot (`stacked=False`) for the daily normals.
+
+![1-Logo](Images/DailyNormals.png)
