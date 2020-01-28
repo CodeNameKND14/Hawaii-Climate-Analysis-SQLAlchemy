@@ -48,7 +48,7 @@ To begin, use Python and SQLAlchemy to do basic climate analysis and data explor
 ## Step 2 - Climate App
 - Designed a Flask API based on the developed queries.
 
-Use FLASK to create your routes.
+Use FLASK to create routes.
 
 
 ## Routes
@@ -71,7 +71,7 @@ Use FLASK to create your routes.
 * Converted the query results to a Dictionary using date as the key and prcp as the value.
 
 
-* Returned the JSON representation of your dictionary.
+* Returned the JSON representation of dictionary.
 
 
 
@@ -110,10 +110,10 @@ Return a JSON list of Temperature Observations (tobs) for the previous year.
 
 ## Temperature Analysis II
 
-- Used the `calc_temps` function to calculate the min, avg, and max temperatures for your trip using the matching dates from the previous year (i.e., use "2017-01-01" if your trip start date was "2018-01-01").
+- Used the `calc_temps` function to calculate the min, avg, and max temperatures for trip using the matching dates from the previous year (i.e., use "2017-01-01" if trip start date was "2018-01-01").
 
 
-- Plotted the min, avg, and max temperature from your previous query as a bar chart.
+- Plotted the min, avg, and max temperature from previous query as a bar chart.
 
 
 - Used the average temperature as the bar height.
@@ -132,7 +132,7 @@ Return a JSON list of Temperature Observations (tobs) for the previous year.
 
 - Calculated the daily normals. Normals are the averages for the min, avg, and max temperatures.
 
-- Created a list of dates for your trip in the format `%m-%d`. Use the `daily_normals` function to calculate the normals for each date string and append the results to a list.
+- Created a list of dates for trip in the format `%m-%d`. Use the `daily_normals` function to calculate the normals for each date string and append the results to a list.
 
 
 - Loaded the list of daily normals into a Pandas DataFrame and set the index equal to the date.
