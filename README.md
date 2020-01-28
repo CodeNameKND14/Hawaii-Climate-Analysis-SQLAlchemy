@@ -1,6 +1,6 @@
 # Climate Analysis and Exploration
 ## Step 1 
-To begin, use Python and SQLAlchemy to do basic climate analysis and data exploration of your climate database using SQLAlchemy ORM queries, Pandas, and Matplotlib.
+To begin, use Python and SQLAlchemy to do basic climate analysis and data exploration of climate database using SQLAlchemy ORM queries, Pandas, and Matplotlib.
 
 
 - Use SQLAlchemy `create_engine` to connect to your sqlite database.
