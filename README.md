@@ -3,9 +3,9 @@
 To begin, use Python and SQLAlchemy to do basic climate analysis and data exploration of climate database using SQLAlchemy ORM queries, Pandas, and Matplotlib.
 
 
-- Use SQLAlchemy `create_engine` to connect to your sqlite database.
+- Use SQLAlchemy `create_engine` to connect to sqlite database.
 
-- Use SQLAlchemy `automap_base()` to reflect your tables into classes and saved a reference to those classes called `Station` and `Measurement`.
+- Use SQLAlchemy `automap_base()` to reflect tables into classes and saved a reference to those classes called `Station` and `Measurement`.
 
 
 
